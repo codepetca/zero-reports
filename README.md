@@ -6,6 +6,8 @@ Public structured technical reports from [Zero](https://github.com/codepetca/zer
 
 Production collection was enabled on 2026-11-19 after [PR #386](https://github.com/codepetca/zero/pull/386) passed all hosted gates and merged. Actual native editor submission and silent automatic collector acceptance reached the hosted service, Vercel-provisioned Neon database and dedicated GitHub App. Synthetic acceptance issues are labelled `activation-test` and closed.
 
+Hourly reconciliation is enabled at minute 17 UTC. [Authenticated manual acceptance](https://github.com/codepetca/zero/actions/runs/44537092433) passed with four delivered groups and no pending or attention-needed groups. A future schedule-triggered event has not yet been observed.
+
 Automatic public reporting starts off. Zero offers one explicit public-reporting choice during first-run setup. After Allow reports, eligible unexpected errors send silently and the manual Report a problem action sends directly. Declining keeps automatic reporting off; opted-out manual submissions require one-off public confirmation. VS Code telemetry settings also gate automatic reports.
 
 The reporting-enabled collector requires a separate editor release. Existing published installers are not updated by enabling the website service. See the [current operation and acceptance record](https://github.com/codepetca/zero/blob/main/docs/PROBLEM-REPORTING.md) for deployment and reconciliation status.
